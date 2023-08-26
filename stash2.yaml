@@ -220,8 +220,8 @@ proxy-groups:
     proxies:
       *G
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
-
-    - name: HK 香港
+    
+  - name: HK 香港
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     use:
