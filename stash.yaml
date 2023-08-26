@@ -47,6 +47,7 @@ proxy-groups:
   - name: "🚀 策略选择"
     proxies:
       - ♻️ 自动测速
+      - 🎯 手动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇺🇸 美国节点
@@ -59,28 +60,10 @@ proxy-groups:
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🌐 全球直连
-      - 🤖️ 人工智能
-      - 📲 Telegram
-      - 📹 YouTube
-      - 🎥 Netflix
-      - 🎬 Disney+
-      - 🎻 Spotify
-      - 📄 Twitter
-      - 🪙 Paypal
-      - 👤 Facebook
-      - 📖 Reddit
-      - 🐦 Discord
-      - 📽 哔哩哔哩
-      - 🍿 国外媒体
-      - 🍔 国内媒体
-      - 🍟 新浪微博
-      - Ⓜ️ 微软服务
-      - 🍎 苹果服务
-      - 🎮 游戏平台
     type: select
     use:
       - MyProxy
-  - name: ♻️ 手动选择
+  - name: 🎯 手动选择
     proxies: null
     type: select
     use:
