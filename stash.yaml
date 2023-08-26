@@ -62,7 +62,6 @@ proxy-groups:
       - 🌐 全球直连
     type: select
     use:
-      - MyProxy
   - name: 🎯 手动选择
     proxies: null
     type: select
