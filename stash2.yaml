@@ -278,7 +278,7 @@ proxy-groups:
     type: select
     proxies:
       *G
-    icon: https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Website_icon/80px/OpenAI.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
   
   - name: 中国大陆
     type: select
