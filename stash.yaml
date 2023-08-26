@@ -409,7 +409,7 @@ proxy-providers:
       interval: 3600
       url: http://www.gstatic.com/generate_204
     interval: 86400
-    url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+    url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: ""
   MyProxy-HK:
     !!merge <<:
@@ -418,7 +418,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$"
   MyProxy-TW:
     !!merge <<:
@@ -427,7 +427,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
   MyProxy-US:
     !!merge <<:
@@ -436,7 +436,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|虚通|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$"
   MyProxy-KR:
     !!merge <<:
@@ -445,7 +445,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(KR|Korea|KOR|首尔|韩|韓|(?i)Korea))^((?!(香港|台湾|新加坡|美国|狮城|南朝鲜|US|SG|HK|TW|台灣|美國|獅城)).)*$"
   MyProxy-RU:
     !!merge <<:
@@ -454,7 +454,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "🇷🇺|俄罗斯|RU|莫斯科|圣彼得堡|喀山|哈尔科夫|乌法|新西伯利亚|下诺夫哥罗德|沃罗涅什"
   MyProxy-UK:
     !!merge <<:
@@ -463,7 +463,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "🇬🇧|英国|UK|伦敦|英格兰|伯明翰|泰恩河畔纽卡斯尔|利兹|爱丁堡|格拉斯哥|苏格兰"
   MyProxy-JP:
     !!merge <<:
@@ -472,7 +472,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$"
   MyProxy-SG:
     !!merge <<:
@@ -481,7 +481,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$"
   MyProxy-IN:
     !!merge <<:
@@ -490,7 +490,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "🇮🇳|印度|IN|IND|孟买|新德里|高知|Republic of India|India"
   MyProxy-DE:
     !!merge <<:
@@ -499,7 +499,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "🇩🇪|德国|DEU|柏林|慕尼黑|汉堡|科隆|Germany"
   MyProxy-CA:
     !!merge <<:
@@ -508,7 +508,7 @@ proxy-providers:
         interval: 3600
         url: http://www.gstatic.com/generate_204
       interval: 86400
-      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1"
+      url: "https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1"
     filter: "🇨🇦|加拿大|CA|渥太华"
 rule-providers:
   去广告:
@@ -693,4 +693,4 @@ rules:
   - RULE-SET,国内媒体,🍔 国内媒体
   - RULE-SET,国外媒体,🍿 国外媒体
   - MATCH,FINAL
-subscribe-url: https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?sub=1
+subscribe-url: https://fast.lycorisrecoil.org/link/evT2iFSnDuAnvwjd?clash=1
