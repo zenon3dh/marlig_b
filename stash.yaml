@@ -381,8 +381,20 @@ proxy-groups:
   - icon:
     name: FINAL
     proxies:
+      - ♻️ 自动测速
+      - 🎯 手动选择
       - 🌐 全球直连
-      - 🚀 策略选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇺🇸 美国节点
+      - 🇰🇷 韩国节点
+      - 🇷🇺 俄罗斯节点
+      - 🇬🇧 英国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇮🇳 印度
+      - 🇩🇪 德国
+      - 🇨🇦 加拿大
     type: select
 proxy-providers:
   MyProxy:
