@@ -104,61 +104,6 @@ proxy-groups:
       - SG 新加坡
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png
-
-  - name: HK 香港
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-    use:
-      - MyProxy
-    filter: 港|🇭🇰|HK|(?i)Hong
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    lazy: true
-    include-all: true
-
-  - name: TW 台湾
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
-    use:
-      - MyProxy
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    lazy: true
-    include-all: true
-
-  - name: JP 日本
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-    use:
-      - MyProxy
-    filter: 日|🇯🇵|东京|JP|(?i)Japan
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    lazy: true
-    include-all: true
-
-  - name: US 美国
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-    use:
-      - MyProxy
-    filter: 美|🇺🇲|(?i)States|American
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    lazy: true
-    include-all: true
-
-  - name: SG 新加坡
-    type: url-test
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-    use:
-      - MyProxy
-    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    lazy: true
-    include-all: true
   
   - name: 国外媒体
     type: select
@@ -275,7 +220,62 @@ proxy-groups:
     proxies:
       *G
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
-  
+
+    - name: HK 香港
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    use:
+      - MyProxy
+    filter: 港|🇭🇰|HK|(?i)Hong
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    include-all: true
+
+  - name: TW 台湾
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
+    use:
+      - MyProxy
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    include-all: true
+
+  - name: JP 日本
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    use:
+      - MyProxy
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    include-all: true
+
+  - name: US 美国
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    use:
+      - MyProxy
+    filter: 美|🇺🇲|(?i)States|American
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    include-all: true
+
+  - name: SG 新加坡
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+    use:
+      - MyProxy
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    lazy: true
+    include-all: true
+    
   - name: 国内直连
     type: select
     proxies:
